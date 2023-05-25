@@ -1,0 +1,31 @@
+{
+  "name": "@OleksandrHumeniuk/genesis-ui-library",
+  "version": "1.0.0",
+  "description": "React UI library for Genesis Homework",
+  "scripts": {
+    "rollup": "rollup -c --bundleConfigAsCjs"
+  },
+  "author": "Oleksandr Humeniuk",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/OleksandrHumeniuk"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "@rollup/plugin-typescript": "^11.1.1",
+    "@types/react": "^18.2.7",
+    "react": "^18.2.0",
+    "rollup": "^3.23.0",
+    "rollup-plugin-dts": "^5.3.0",
+    "tslib": "^2.5.2",
+    "typescript": "^5.0.4"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "type": "module"
+}
